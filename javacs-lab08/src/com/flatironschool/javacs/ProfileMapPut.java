@@ -25,7 +25,7 @@ public class ProfileMapPut {
 			Map<String, Integer> map;
 
 			public void setup(int n) {
-				map = new HashMap<String, Integer>();
+				map = new MyHashMap<>();
 			}
 
 			public void timeMe(int n) {
